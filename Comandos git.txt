@@ -1,0 +1,6 @@
+git init
+git add "algo"s
+git commit -m "version"
+git add .
+git status
+git log "la cosa con cambios"
