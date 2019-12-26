@@ -5,4 +5,5 @@ Comia galletas de perro.
 
 Le gustaba jugar con su amo
 
-Jugaban con la pelota
+Jugaban con la pelota.
+El perro siempre se la traia a su amo.
