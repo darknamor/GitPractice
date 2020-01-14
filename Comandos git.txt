@@ -58,3 +58,6 @@ git stash list "muestra lista de cambios en el stash"
 git stash pop "volver al estado modificado"
 git stash drop "borra el stash"
 <git stash branch [rama]>  Lleva los cambios del stash a una nueva rama
+git clean "comando para borrar no funciona por si solo"
+git clean --dry-run "muestra los archivos que se van a borrar"
+git clean -f "borra los archivos listados anteriormente"
