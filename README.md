@@ -5,6 +5,4 @@ Git practice commands
 
 Increible editor de md
 
-
-[LINK]
-[link]: https://pandao.github.io/editor.md/en.html "link"
+[LINK]([LINK] [link]: https://pandao.github.io/editor.md/en.html "link" "LINK"
