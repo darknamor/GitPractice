@@ -21,6 +21,7 @@ git push -subir cambios de los commit al repo
 git fetch -traer cambios al repo local
 git merge -traer datos al directorio local
 git pull -es fecth+merge
+git pull -es fecth+merge
 git commit -am funciona con los archivos que se les hizo add 
 git branch "nombre" -crea un banch de la rama actual
 git checkout "nombre rama" - cambia rama
@@ -43,3 +44,4 @@ git remote set-url origin url-ssh-del-repositorio-en-github "Cambiar repo de hht
 git log --all --graph --decorate --oneline "Mostrar Historia de forma grafica"
 git tag -a v0.1 -m "comentario" tag
 git show-ref --tags
+git push origin --tags subir tags
