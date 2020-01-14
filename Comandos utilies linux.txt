@@ -1,0 +1,1 @@
+alias "el alias" = "el comando que se requiere abreviar"

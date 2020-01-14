@@ -40,3 +40,6 @@ ls -al show all folders
 eval $(ssh-agent -s) revisar si el servidor ssh esta corriendo
 ssh-add -K ruta donde esta la llave privada
 git remote set-url origin url-ssh-del-repositorio-en-github "Cambiar repo de hhtps a SSH"
+git log --all --graph --decorate --oneline "Mostrar Historia de forma grafica"
+git tag -a v0.1 -m "comentario" tag
+git show-ref --tags
