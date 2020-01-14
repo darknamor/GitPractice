@@ -45,3 +45,7 @@ git log --all --graph --decorate --oneline "Mostrar Historia de forma grafica"
 git tag -a v0.1 -m "comentario" tag
 git show-ref --tags
 git push origin --tags subir tags
+git tag -d "nombre de tag" borrar internamente el tag
+git push origin :refs/tags/nombre-del-tag. "borrar tag del repositorio"
+git show-branch --all "mostrar todas las ramas
+gitk "levanta un software para las ramas
