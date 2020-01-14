@@ -28,3 +28,4 @@ git merge - mezclar ramas
 git rm --cached borra el add
 git show ver los cambios de un archivo
 salir del vi de GIT = ESC+SHIFT+ZZ
+git log--oneline --graph ver ramas de forma grafica
