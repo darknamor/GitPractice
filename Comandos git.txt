@@ -29,3 +29,13 @@ git rm --cached borra el add
 git show ver los cambios de un archivo
 salir del vi de GIT = ESC+SHIFT+ZZ
 git log--oneline --graph ver ramas de forma grafica
+git remote add origni "url del repositorio"
+git remote
+git remote -v
+git push origin master subir todo al repositorio origin
+git pull origin master --allow-unrelated-histories - mesclar hisotrias de los repos
+git commit -am
+pwd "donde estoy"
+ls -al show all folders
+eval $(ssh-agent -s) revisar si el servidor ssh esta corriendo
+ssh-add 
