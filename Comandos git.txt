@@ -51,3 +51,5 @@ git show-branch --all "mostrar todas las ramas
 gitk "levanta un software para las ramas
 git branch "nombre de la branch" crea rama
 git push "nombre de la branch" sube la branch al repo
+git remote add upstream "urldel repo" -- para funcionar del proyecto master
+git remote -v

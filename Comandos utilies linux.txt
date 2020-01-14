@@ -1,2 +1,2 @@
 alias "el alias" = "el comando que se requiere abreviar"
-hitoria_ramas fue el primer alias que cree
+historia_ramas fue el primer alias que cree
