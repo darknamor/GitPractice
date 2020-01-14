@@ -53,3 +53,8 @@ git branch "nombre de la branch" crea rama
 git push "nombre de la branch" sube la branch al repo
 git remote add upstream "urldel repo" -- para funcionar del proyecto master
 git remote -v
+git stash "genera un lugar temporal para cambiarme de rama sin subir los cambios"
+git stash list "muestra lista de cambios en el stash"
+git stash pop "volver al estado modificado"
+git stash drop "borra el stash"
+<git stash branch [rama]>  Lleva los cambios del stash a una nueva rama
