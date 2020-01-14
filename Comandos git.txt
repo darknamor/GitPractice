@@ -49,3 +49,5 @@ git tag -d "nombre de tag" borrar internamente el tag
 git push origin :refs/tags/nombre-del-tag. "borrar tag del repositorio"
 git show-branch --all "mostrar todas las ramas
 gitk "levanta un software para las ramas
+git branch "nombre de la branch" crea rama
+git push "nombre de la branch" sube la branch al repo
