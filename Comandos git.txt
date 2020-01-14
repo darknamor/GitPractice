@@ -38,4 +38,4 @@ git commit -am
 pwd "donde estoy"
 ls -al show all folders
 eval $(ssh-agent -s) revisar si el servidor ssh esta corriendo
-ssh-add 
+ssh-add -K ruta donde esta la llave privada
