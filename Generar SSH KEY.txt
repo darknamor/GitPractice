@@ -1,0 +1,6 @@
+ssh-keygen -t rsa -b 4096 -C "tu@email.com"
+# Encender el "servidor" de llaves SSH de tu computadora:
+eval $(ssh-agent -s)
+Entrega un pid
+# Añadir tu llave SSH a este "servidor":
+ssh-add ruta-donde-guardaste-tu-llave-privada
