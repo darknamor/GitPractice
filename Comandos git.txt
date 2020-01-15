@@ -83,3 +83,6 @@ Configurar usuario git
 git config "muestra todas las configuraciones de git"
 git config --list "muestra las configuraciones por defecto"
 git config --list --show-origin "ver donde estan guardada estas configuraciones"
+
+git branch --remote "muestra las ramas remotas"
+git checkout -b "rama a crear" "idcomit" "crea rama en base al id del comit"
