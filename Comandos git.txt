@@ -86,3 +86,9 @@ git config --list --show-origin "ver donde estan guardada estas configuraciones"
 
 git branch --remote "muestra las ramas remotas"
 git checkout -b "rama a crear" "idcomit" "crea rama en base al id del comit"
+
+Crear un nuevo tag y asignarlo a un commit: git tag -a nombre-del-tag id-del-commit.
+Borrar un tag en el repositorio local: git tag -d nombre-del-tag.
+Listar los tags de nuestro repositorio local: git tag o git show-refs --tags.
+Publicar un tag en el repositorio remoto: git push origin --tags.
+Borrar un tag del repositorio remoto: git tag -d nombre-del-tag y git push origin :refs/tags/nombre-del-tag.
